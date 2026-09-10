@@ -11,7 +11,7 @@ import numpy as np
 # =====================================================================
 # GLAVNI PARAMETRI ZA AUTOMATSKU PROMENU (PODEŠAVAJ SAMO OVDE)
 # =====================================================================
-CSV_FILE = "/Users/4c/Desktop/GHQ/data/loto7_4682_k72.csv"   # Ime tvog fajla
+CSV_FILE = "/data/loto7_4682_k72.csv"   # Ime tvog fajla
 WINDOW_SIZE = 200        # Prozor (za najveću bazu stavi 150-250)
 NUM_EPOCHS = 1200        # Broj epoha (za najveću bazu stavi 1200)
 # =====================================================================
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
 
 """
-Mamba-2 SSD (Klasifikacija) | Fajl: /Users/4c/Desktop/GHQ/data/loto7_4682_k72.csv | Prozor: 200 | Epoha: 1200
+Mamba-2 SSD (Klasifikacija) | Fajl: /data/loto7_4682_k72.csv | Prozor: 200 | Epoha: 1200
 Trening modela je pokrenut...
 Epoha [50/1200] | Kategorijalni Gubitak: 2.9176
 Epoha [100/1200] | Kategorijalni Gubitak: 2.9055
@@ -150,8 +150,8 @@ Epoha [1150/1200] | Kategorijalni Gubitak: 2.8095
 Epoha [1200/1200] | Kategorijalni Gubitak: 2.8074
 
 ==================================================
-REZULTAT ZA FAJL /Users/4c/Desktop/GHQ/data/loto7_4682_k72.csv (Sledeći red):
-[ 1 13 23 28 29 35 39]
+REZULTAT ZA FAJL /data/loto7_4682_k72.csv (Sledeći red):
+[ 1 x 23 y 29 z 39]
 ==================================================
 """
 
